@@ -73,7 +73,7 @@ export function Footer() {
                   href="mailto:zeeshan@rexbiotech.net"
                   className="text-sm text-background/80 hover:text-primary transition-colors"
                 >
-                  zeeshan@rexbiotech.net
+                  Info@rexbiotech.net
                 </a>
               </li>
             </ul>

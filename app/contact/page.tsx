@@ -87,7 +87,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold mb-2">Email Us</h3>
                         <a href="mailto:zeeshan@rexbiotech.net" className="text-sm text-primary hover:underline">
-                          zeeshan@rexbiotech.net
+                          info@rexbiotech.net
                         </a>
                       </div>
                     </div>

@@ -1,7 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
-import { Target, Eye, Award, Users } from "lucide-react"
+import { Target, Eye, Award, Users, Phone } from "lucide-react"
 import { HelixHero } from "@/components/ui/helix-hero"
 
 export default function AboutPage() {
@@ -41,8 +41,41 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Mission & Vision */}
+        {/* Founder */}
         <section className="py-20 bg-secondary">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Our Founder</h2>
+              <Card className="border-2">
+                <CardContent className="pt-8">
+                  <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+                    <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Users className="h-12 w-12 text-primary" />
+                    </div>
+                    <div className="flex-1 text-center md:text-left">
+                      <h3 className="text-2xl font-bold mb-2">Amjad Ali</h3>
+                      <p className="text-lg text-primary mb-4">Founder & CEO</p>
+                      <p className="text-muted-foreground leading-relaxed mb-4">
+                        With a vision to transform pharmaceutical supply in Pakistan, Amjad Ali founded Rex Biotech
+                        to bridge the gap between quality healthcare products and the providers who need them. His
+                        commitment to excellence and integrity has been the driving force behind our success.
+                      </p>
+                      <div className="flex items-center justify-center md:justify-start gap-2 text-muted-foreground">
+                        <Phone className="h-4 w-4" />
+                        <a href="tel:03404002554" className="hover:text-primary transition-colors">
+                          0340-4002554
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Mission & Vision */}
+        <section className="py-20 bg-background">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <Card className="border-2">
@@ -77,7 +110,7 @@ export default function AboutPage() {
         </section>
 
         {/* Values */}
-        <section className="py-20 bg-background">
+        <section className="py-20 bg-secondary">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Our Core Values</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
