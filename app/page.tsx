@@ -110,7 +110,7 @@ export default function HomePage() {
                 "Rex Biotech has been our trusted pharmaceutical supplier for over 5 years. Their commitment to quality and timely delivery is unmatched. Every product meets the highest standards.",
               name: "Dr. Ahmed Khan",
               role: "Medical Director, City Hospital",
-              imageSrc: "/professional-pakistani-doctor-in-hospital.jpg",
+              imageSrc: "/T1.jpg",
             },
             {
               id: 2,
@@ -118,7 +118,7 @@ export default function HomePage() {
                 "Excellent service and genuine products. Rex Biotech has helped us maintain our pharmacy's reputation for quality. Their team is always responsive and helpful.",
               name: "Fatima Malik",
               role: "Owner, HealthCare Pharmacy",
-              imageSrc: "/female-pharmacist-in-modern-pharmacy.jpg",
+              imageSrc: "/T2.JPG",
             },
             {
               id: 3,
@@ -126,7 +126,7 @@ export default function HomePage() {
                 "Professional team, competitive prices, and reliable delivery. Rex Biotech is our go-to pharmaceutical supplier. They understand our urgent needs and always deliver on time.",
               name: "Muhammad Asif",
               role: "Procurement Manager, Medical Center",
-              imageSrc: "/medical-procurement-manager-in-office.jpg",
+              imageSrc: "/T3.png",
             },
           ]}
         />

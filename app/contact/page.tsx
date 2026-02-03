@@ -156,7 +156,7 @@ export default function ContactPage() {
                             type="tel"
                             value={formData.phone}
                             onChange={handleChange}
-                            placeholder="+92 300 1234567"
+                            placeholder="0304-5990475"
                           />
                         </div>
                         <div className="space-y-2">

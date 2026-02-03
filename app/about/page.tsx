@@ -62,8 +62,8 @@ export default function AboutPage() {
                       </p>
                       <div className="flex items-center justify-center md:justify-start gap-2 text-muted-foreground">
                         <Phone className="h-4 w-4" />
-                        <a href="tel:03404002554" className="hover:text-primary transition-colors">
-                          0340-4002554
+                        <a href="tel:03045990475" className="hover:text-primary transition-colors">
+                          0304-5990475
                         </a>
                       </div>
                     </div>
