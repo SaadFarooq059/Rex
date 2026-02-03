@@ -120,6 +120,7 @@ export default function HomePage() {
               role: "Owner, HealthCare Pharmacy",
               imageSrc: "/T2.JPG",
             },
+            ///
             {
               id: 3,
               quote:
